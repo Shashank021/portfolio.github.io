@@ -1,0 +1,98 @@
+@import 'nav.css';
+@import 'about.css';
+@import 'projects.css';
+@import 'achievements.css';
+@import 'service.css';
+@import 'contact.css';
+@import 'footer.css';
+@font-face {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    src: url();
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --secondary-color:#edf2fc;
+    --primary-color: #212121;
+}
+.dark-theme{
+    --secondary-color:#000106;
+    --primary-color: #fff;
+}
+body{
+    background-color: var(--primary-color);
+}
+#to-top{
+    background-color: #CD3E1F;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: fixed;
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+}
+i{
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 2.5px;
+    background-color: #CD3E1F;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    /* background-color: RED; */
+    display: flex;
+    margin-top: 77px;
+    margin-left: 100px;
+}
+.title{
+    margin-top: 100px;
+    padding-right: 400px;
+    margin-left: 100px;
+}
+.title h1{
+    font-size: 2.5rem;
+    justify-content: left;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: transform 1s;
+}
+.title h1:hover{
+    transform: scale(1.1);
+}
+.title p{
+    color: var(--secondary-color);
+}
+.title button{
+    color: var(--secondary-color);
+    background-color: #CD3E1F;
+    width: 130px;
+    height: 50px;
+    font-size: large;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.imgcover{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: -360px;
+}
+.img{
+    height: 450px;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.img:hover{
+    transform: scale(1.1);
+}
