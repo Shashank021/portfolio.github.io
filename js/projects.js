@@ -18,7 +18,7 @@ const projects = () => {
                 <div class="card2">
                     <h2>Portfolio</h2>
                     <h3>Personal Protfolio website using HTML,CSS and JS only.</h3>
-                    <a href="https://github.com/Shashank021/shashank021.github.io">Code Here</a>
+                    <a href="https://github.com/Shashank021/portfolio.github.io">Code Here</a>
                 </div>
             </div>
             <div  class="section1">
@@ -35,7 +35,7 @@ const projects = () => {
                 <div class="card2">
                     <h2>Portfolio</h2>
                     <h3>Personal Protfolio website using HTML,CSS and JS only.</h3>
-                    <a href="https://github.com/Shashank021/shashank021.github.io">Code Here</a>
+                    <a href="https://github.com/Shashank021/portfolio.github.io">Code Here</a>
                 </div>
             </div>
         </div><br><br><br><br><br><br><br><br><br><br><br>
