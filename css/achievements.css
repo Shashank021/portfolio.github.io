@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.section2 h1{
+.section2 {
     padding-top: 100px;
     margin-left: 200px;
     color: var(--secondary-color);
+    cursor: pointer;
+}
+.section2 h1{
+    text-align: center;
+    margin-right: 200px;
 }

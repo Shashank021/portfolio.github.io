@@ -5,21 +5,27 @@
 .section{
     padding-top: 100px;
     display: flex;
-    /* background-color: #A6A6A6; */
+    cursor: pointer;
 }
 .section img{
     width: 400px;
     height: 550px;
     border: 2px solid var(--secondary-color);
     margin-left: 200px;
+    transition: transform 1s;
+    border-radius: 10px;
+}
+.section img:hover{
+    transform: scale(1.1);
 }
 .section h1,h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     color: var(--secondary-color);
     margin-right: 90px;
     margin-left: 10px;
+    transition: transform 1s;
 }
-.section:hover{
-    text-decoration: underline;
-
+.section h3:hover{
+    transform: scale(1.05);
 }

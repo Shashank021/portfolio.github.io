@@ -2,8 +2,58 @@
     margin: 0;
     padding: 0;
 }
-.section4 h1{
-    padding-top: 100px;
-    margin-left: 200px;
+.section4 {
+    margin-top: -100px;
+    margin-left: 250px;
     color: var(--secondary-color);
+    cursor: pointer;
+    transition: transform 1s;
+    border-radius: 10px;
+}
+/* .section4:hover{
+    background: #CD3E1F;
+} */
+.section4 h1{
+    text-align: center;
+    margin-right: 70px;
+}
+.contact{
+    width: 960px;
+    height: 250px;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px;
+    transition: transform 1s;
+}
+.contact img{
+    margin: 0;
+}
+.contact a{
+    margin-left: 10px;
+    transition: transform 1s;
+}
+.contact:hover{
+    transform: scale(1.1);
+}
+form{
+    margin-left: 300px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+form input{
+    margin: 10px 0px;
+    width: 400px;
+    height: 30px;
+    background-color: var(--secondary-color);
+}
+.contact button{
+    background-color: #f60606;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
 }
