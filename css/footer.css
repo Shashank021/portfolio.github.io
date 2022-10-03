@@ -2,7 +2,25 @@
     margin: 0;
     padding: 0;
 }
-.footer h1{
-    margin-left: 200px;
-    color: var(--secondary-color);
+.footer{
+    margin-top: 100px;
+    background-color: grey;
+}
+.footer:hover{
+    background-color: #CD3E1F;
+}
+.bottom{
+    float: left;
+}
+.bottom ul li{
+    margin-left: 50px;
+    margin-top: 70px;
+    display: flex;
+    color: black;
+    cursor: pointer;
+}
+.last{
+    float: right;
+    margin-top: 90px;
+    margin-right: 50px;
 }
