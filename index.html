@@ -53,5 +53,24 @@
         <script src="js/contact.js"></script>
         <script src="js/footer.js"></script>
         <script src="js/to-top.js"></script>
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbymAzSz_9KdMN4v6fDxJH4oQq338JOfBf8GNOUHKKGujIl_7ASe1PwQOdtdf8kWvj9m/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
     </body>
 </html>

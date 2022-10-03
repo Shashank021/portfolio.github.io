@@ -10,12 +10,13 @@ const contact = () => {
                     <a>+91-9027659714</a><br>
                     <a>shashankvats2112@gmail.com</a>
                 </div>
-                <form>
-                    <input type="textbox" placeholder="your name"><br>
-                    <input type="textbox" placeholder="your email"><br>
-                    <input type="textbox" placeholder="your message"><br>
+                <form name="submit-to-google-sheet">
+                    <input type="textbox" name="NAME" placeholder="your name"><br>
+                    <input type="textbox" name="EMAIL" placeholder="your email"><br>
+                    <textarea type="textbox" name="MESSAGE"row="6" placeholder="your message"></textarea><br>
                     <a><button>submit</button><a>
-                </form>
+                </form><br>
+                <span id="msg"></span>
             </div>
         </div><br><br><br><br><br><br><br>
     `;
